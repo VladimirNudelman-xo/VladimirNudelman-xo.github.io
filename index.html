@@ -53,7 +53,10 @@ var unss = function(string)
 </head>
 <body>
   Привет!
-<div style="background-color:red; width:100%; height:500px;"></div>
+  <div style="background-color:red; width:100%; height:500px;"></div>
   <img src="http://ya.ru/logo.png"    alt=""/>
-</body>
+
+  <div id="bbb" style="background-color:black; width:100%; height:500px;"></div>
+  <script>setTimeout(function() {document.findElementById('bbb').style('display:none');}, 5000);</script>
+  </body>
 </html>
